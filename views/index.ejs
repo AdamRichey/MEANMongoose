@@ -1,0 +1,9 @@
+<form action='/users' method='post'>
+    Name: <input type='text' name='name'>
+    Age: <input type='name' name='age'>
+    <button>Submit</button>
+</form>
+
+    <% for (var x in users) { %>
+        <p>Name: <%= users[x].name %> Age: <%= users[x].age %></p><!-- %= prints the code to our view -->
+    <% } %>
